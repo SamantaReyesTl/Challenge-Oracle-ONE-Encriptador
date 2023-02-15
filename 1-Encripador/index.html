@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img src="images/imagen_a_Alura.png" alt="Alura - Plataforma de educacion online">
+    </header>
+
+    <main>
+        <section> <!--El primer textarea para el texto a encriptar-->
+            <textarea class="texto-inicio" cols="40" rows="10" placeholder="Inserte el texto aquí" ></textarea>
+            <p><img src="images/icono_admiracion.png"> Solo se permiten textos en minuscula y sin acentos</p>
+
+            <div class="Botones"> <!--aqui es un div para contener a los botones-->
+                <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+
+                <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+
+        <section> <!--El segundo textarea para mostrar el texto encriptado-->
+            <textarea class="texto-Final" cols="40" rows="10" placeholder="Ningun texto fue encontrado" ></textarea>
+            
+            <div class="botonCopiar">
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+<!--buscar el live server   -->

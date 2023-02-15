@@ -1,0 +1,98 @@
+main{
+    display: flex; 
+    margin-left: 80px;
+    margin-bottom: 50px;
+    justify-content: center; 
+    gap: 30px;  
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background: #F2F5FC;
+    width: 80%;
+    /*font-family: 'Inter', sans-serif;*/
+}
+
+header{
+    margin-left: 40px;
+}
+
+section textarea{
+    border-radius: 10px;
+    padding: 10px 30px;
+    width: 90%;
+    font-family: 'Inter', sans-serif;
+}
+
+.texto-inicio{
+    margin-top: 90px;
+    background: #F2F5FC;
+    border: none;
+    color: blue;
+    font-size: 30px;
+}
+
+.texto-inicio::placeholder {    
+    color: blue;
+    font-size: 30px;
+}
+
+/*botones*/
+.botones {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+/*boton encriptar*/
+.encriptar{
+    width: 45%;
+    height: 45px;
+    background-color: #0A3871;
+    color: #F2F5FC;
+    border-radius: 10px;
+    border: 2px solid #F2F5FC;
+}
+.encriptar:hover{
+    border-color: #c78c19;
+}
+
+/*boton desencriptar*/
+.desencriptar{
+    width: 45%;
+    height: 45px;
+    color: #0A3871;
+    border-radius: 10px;
+    border: 1px solid #0A3871; 
+}
+.desencriptar:hover{
+    border-color: #c78c19;
+}
+
+/*texto encriptado*/
+
+.texto-Final{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    border-color: #F2F5FC;
+    text-align: center;
+    padding: 30px;
+    background-image: url(images/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 250px;
+    font-size: 40px;
+}
+
+.botonCopiar{
+    display: flex;
+    justify-content: center;
+}
+.copiar{
+    width: 40%;
+    height: 42px;
+    color: #0A3871;
+    border-radius: 10px;
+    border: 1px solid #0A3871;
+}
